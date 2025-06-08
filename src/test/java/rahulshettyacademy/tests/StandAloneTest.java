@@ -43,6 +43,7 @@ public class StandAloneTest extends BaseTest {
         String confirmMessage = confirmationPage.getConfirmationMessage();
         Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
         
+        System.out.println("Git Merge to master");        
        //Close the browser
        driver.close();
     }
